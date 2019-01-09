@@ -21,4 +21,4 @@ The challenge was to build a CodePen app with the following requirements.
 
 The project had to be run against test [CDN link to run the tests in any environment] (https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js)
 
-[My Product Landing Page on Codepen] (https://codepen.io/ssrome/full/WYNYXj)
+My Product Landing Page on [CodePen](https://codepen.io/ssrome/full/WYNYXj) and [Github Pages](https://ssrome.github.io/fcc_product_landing_page/)
