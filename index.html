@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,53 +8,72 @@
   	<meta name="keywords" content="">
         <title>Product Landing Page</title>
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
-
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
 
   </head>
   <body id="main">
     <header id="header">
       <nav id="nav-bar">
-        <a class="nav-link" href="#" target="_blank">Features</a>
-        <a class="nav-link" href="#" target="_blank">Link 2</a>
-        <a class="nav-link" href="#" target="_blank">Link 3</a>
+        <a class="nav-link" href="#features" target="_blank">Features</a>
+        <a class="nav-link" href="#guitars" target="_blank">Guitars</a>
+        <a class="nav-link" href="#pricing" target="_blank">Pricing</a>
       </nav>
       <img id="header-img" src="https://tbncdn.freelogodesign.org/2a88b31d-cedc-42f2-a840-cbad53c35e1e.png?1541980344501" alt="" />
     </header>
-    <main id="main-doc" >      
+    <div id="main-doc" >  
       <div class="flex-container">
         <div class="item">
-          <form id="form">
-            <input id="email" type="email" placeholder="your@email.com" />
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input id="email" name="email" type="email" placeholder="Enter your email address" required />
             <input id="submit" type="submit" />
           </form>
         </div>
-        <div class="flex-container">
-          <div>
-              &nbsp; High Quality Products
-          </div>
-        </div>
-        <div class="flex-container">
-          <div>
-            <i class="fas fa-truck"></i> &nbsp;Next Day Delivery
-          </div>
-          <div>
-            <i class="fas fa-screwdriver"></i> &nbsp; Free 1 Year Service plan
-          </div>
-        </div>
-        <div class="flex-container">
-          <div>
-              We have all the guitars featured in this video
-            <div >
-              <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LxOhDwxjW7g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+      </div>
+      <div class="flex-container">
+        <ul id="features">
+          <li>&nbsp; High Quality Products</li>
+          <li><i class="fas fa-truck"></i> &nbsp;Next Day Delivery</li>
+          <li><i class="fas fa-screwdriver"></i> &nbsp; Free 1 Year Service plan</li>
+        </ul>
+      </div>
+      <div class="flex-container">
+        <div id="guitars">
+            We have all the guitars featured in this video
+          <div >
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LxOhDwxjW7g" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
-    </main>
+      <div class="flex-container">
+        <div id="pricing">
+            <ul>
+              <li class="products">
+                <h2>Electric Guitars</h2>
+                  <div class="price">from £90</div>
+                  <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum urna at diam euismod scelerisque. 
+                  </div>
+                  <div class="button">VIEW MORE</div>  
+              </li>
+              <li class="products">
+                <h2>Bass Guitars</h2>
+                  <div class="price">from £109</div>
+                  <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum urna at diam euismod scelerisque. </div>
+                  <div class="button">VIEW MORE</div> 
+              </li>
+              <li class="products">
+                  <h2>Acoustic Guitars</h2>
+                  <div class="price">from £60</div>
+                  <div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum urna at diam euismod scelerisque. </div>
+                  <div class="button">VIEW MORE</div> 
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
     <!-- JavaScript -->
     <script src="js/script.js"></script>
 
