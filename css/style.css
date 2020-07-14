@@ -1,4 +1,4 @@
-@media (min-width: 320px) { 
+@media all and (min-width: 320px) { 
     body{
         margin: 0 auto;
         font-family: 'Slabo 27px', serif;
@@ -126,7 +126,7 @@
         padding-right: 5px;
     }
 }
-@media (min-width: 576px) {
+@media all and (min-width: 576px) {
     img#header-img{
         margin: 10% 25% 0;
     }
@@ -147,7 +147,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media all and (min-width: 768px) {
     #nav-bar{
         position: fixed;
         margin: 0 auto;
@@ -213,7 +213,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media all and (min-width: 992px) {
     a.nav-link{
         margin: 10%;
     }
